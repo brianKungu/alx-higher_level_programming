@@ -1,17 +1,16 @@
 #!/usr/bin/python3
 def fizzbuzz():
-    result =[]
     for number in range(1,101):
         if number % 3 == 0 and number % 5 == 0:
-            result.append("fizzbuzz")
+            print("fizzbuzz")
         elif number % 3 == 0:
-            result.append("fizz")
+            print("fizz")
         elif number % 5 == 0:
-            result.append("buzz")
+            print("buzz")
         else:
-            result.append(str(number))
-    return result
+            print(str(number))
+    return number
 
 
 
-print(fizzbuzz())
+fizzbuzz()

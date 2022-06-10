@@ -8,9 +8,8 @@ def fizzbuzz():
         elif number % 5 == 0:
             print("buzz")
         else:
-            print(str(number))
+            print(number)
     return number
-
 
 
 fizzbuzz()

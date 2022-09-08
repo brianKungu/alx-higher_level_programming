@@ -8,12 +8,9 @@ class Rectangle {
   }
 
   print() {
-    let rows = "X";
-    for (let i = 0; i < this.width - 1; i++) {
-      rows += "X";
-    }
-    for (let j = 0; j < this.height; j++) {
-      console.log(rows);
-    }
+    console.log(
+      ("X".repeat(this.width) + "\n").repeat(this.height - 1) +
+        "X".repeat(this.width)
+    );
   }
-}
+};

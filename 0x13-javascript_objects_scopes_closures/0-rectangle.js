@@ -1,2 +1,6 @@
 #!/usr/bin/node
-module.exports = class Rectangle {};
+
+// script that creates an empty class.
+
+module.exports = class Rectangle {
+};
